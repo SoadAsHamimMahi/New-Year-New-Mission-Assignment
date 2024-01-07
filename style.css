@@ -80,6 +80,9 @@
 
 .dis-section .discount img {
     align-items: center;
+    width: 82%;
+    max-width: 1320px;
+    margin: 10px auto;
 }
 
 .dis-section .discount .discount-text {
@@ -99,6 +102,12 @@
     position: relative;
 }
 
+.midnight-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 68px 126px;
+}
+
 .midnight-party h1 {
     color: #FFF;
     font-family: Merriweather;
@@ -106,6 +115,7 @@
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
+    margin-top: 60px;
 }
 
 .midnight-party p {
@@ -124,18 +134,15 @@
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
 }
 
-.midnight-text {
+/* .midnight-text {
     padding-top: 126px;
     padding-left: 126px;
     padding-right: 497px;
     padding-bottom: 142px;
-}
+} */
 
 
 /* Join sections work started from here */
@@ -149,9 +156,10 @@
     text-align: center;
 }
 
-.join-section-text {
+.join-section .join-section-text {
     padding: 105px 385px;
 }
+
 
 .join-section p {
     color: #070211;
@@ -386,7 +394,7 @@ span {
     max-width: 1320px;
     height: 609px;
     margin: 0px auto;
-    
+    padding: 120px 140px;
 }
 
 .footerr p {
@@ -410,10 +418,15 @@ span {
 .footerr .footer-part  .conact-images{
     display: flex;
     justify-content: center;
-    
+    gap: 24px;
 }
 
 .footerr .footer-part .all-rights{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.footerr .footer-part .all-rights, .contact-info, .conact-images, hr{
+    margin-bottom: 48px;
 }
