@@ -364,6 +364,17 @@ span {
     line-height: normal;
 }
 
+.subscribe button{
+    position: relative;
+  transition: transform 0.3s;
+}
+
+button:hover{
+    background-color: #008CBA;
+  color: white;
+  animation: bubble 0.4s ease-out;
+}
+
 .subscribe .email-text {
     display: flex;
 }
@@ -376,6 +387,7 @@ span {
     padding-left: 30px;
     font-family: Inter;
     font-size: 18px;
+     border: none;
 }
 
 .subscribe .subs-text {
