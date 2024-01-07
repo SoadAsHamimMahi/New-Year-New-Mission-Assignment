@@ -16,7 +16,7 @@
     height: 600px;
     margin: 50px auto;
     position: relative;
-    
+
 }
 
 .header-area .banner-text {
@@ -96,7 +96,7 @@
     height: 600px;
     margin: 120px auto;
     border-radius: 16px;
-    position: relative; 
+    position: relative;
 }
 
 .midnight-party h1 {
@@ -149,7 +149,7 @@
     text-align: center;
 }
 
-.join-section-text{
+.join-section-text {
     padding: 105px 385px;
 }
 
@@ -163,7 +163,7 @@
     text-transform: capitalize;
 }
 
-.join-section span {
+span {
     color: #F00;
 }
 
@@ -188,4 +188,70 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+
+/* holiday work starts from here */
+
+.holiday b {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holiday .holiday-section .holiday-text{
+    text-align: center;
+    padding: 120px 266px;
+}
+
+.holiday{
+    max-width: 1320px;
+    max-height: 482px;
+    margin: 120px auto;
+}
+
+
+.holiday .holiday-section .holiday-img .giftbox{
+    width: 98.77px;
+height: 145.319px;
+flex-shrink: 0;
+}
+
+.holiday .holiday-section .holiday-img .three-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.holiday .holiday-section .holiday-img .three-img{
+    margin-top: 0px;
+    position: relative;
+}
+
+.holiday .holiday-section .holiday-img .three-img .discount{
+    margin-left: 777px;
+    margin-right: 425px;
+    position: absolute;
 }
