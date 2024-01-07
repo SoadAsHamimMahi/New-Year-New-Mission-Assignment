@@ -221,37 +221,82 @@ span {
     line-height: 32px;
 }
 
-.holiday .holiday-section .holiday-text{
+.holiday .holiday-section .holiday-text {
     text-align: center;
     padding: 120px 266px;
 }
 
-.holiday{
+.holiday {
     max-width: 1320px;
-    max-height: 482px;
+    max-height: 1050px;
     margin: 120px auto;
 }
 
 
-.holiday .holiday-section .holiday-img .giftbox{
+.holiday .holiday-section .holiday-img .giftbox {
     width: 98.77px;
-height: 145.319px;
-flex-shrink: 0;
+    height: 145.319px;
+    flex-shrink: 0;
 }
 
-.holiday .holiday-section .holiday-img .three-img{
+.holiday .holiday-section .holiday-img .three-img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0px;
 }
 
-.holiday .holiday-section .holiday-img .three-img{
+.holiday .holiday-section .holiday-img .three-img {
     margin-top: 0px;
     position: relative;
 }
 
-.holiday .holiday-section .holiday-img .three-img .discount{
+.holiday .holiday-section .holiday-img .three-img .discount {
     margin-left: 777px;
     margin-right: 425px;
     position: absolute;
+}
+
+
+/* Gift section's work starts from here */
+
+.Gift-section{
+    padding: 120px 140px;
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+.Gift-section .gift-text h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Gift-section .gift-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Gift-section .gift-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px
+}
+
+.Gift-section .gift-img .imggroup-1 , .imggroup-2{
+      display: flex;
+      gap: 24px;
+      margin-top: 24px;
 }
