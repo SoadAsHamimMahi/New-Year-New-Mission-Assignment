@@ -7,13 +7,16 @@
 
 .header-area {
 
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner-Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Banner-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 16px;
     width: 82%;
     max-width: 1320px;
     height: 600px;
     margin: 50px auto;
     position: relative;
+    
 }
 
 .header-area .banner-text {
@@ -86,13 +89,14 @@
 /* Discount section's work finished here */
 
 .midnight-party {
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
     background-repeat: no-repeat;
     width: 82%;
     max-width: 1320px;
     height: 600px;
     margin: 120px auto;
     border-radius: 16px;
+    position: relative; 
 }
 
 .midnight-party h1 {
@@ -142,6 +146,7 @@
     margin: 120px auto;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
+    text-align: center;
 }
 
 .join-section-text{
@@ -171,6 +176,7 @@
     border-radius: 8px;
     background: #F00;
     border: none;
+    margin-top: 48px;
 }
 
 .join-section button {
