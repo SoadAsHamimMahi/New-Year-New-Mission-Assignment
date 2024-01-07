@@ -13,6 +13,7 @@
     max-width: 1320px;
     height: 600px;
     margin: 50px auto;
+    position: relative;
 }
 
 .header-area .banner-text {
