@@ -259,13 +259,15 @@ span {
 
 /* Gift section's work starts from here */
 
-.Gift-section{
+.Gift-section {
     padding: 120px 140px;
     width: 82%;
     max-width: 1320px;
-    height: 600px;
+    max-height: 1000px;
     margin: 50px auto;
 }
+
+
 
 .Gift-section .gift-text h6 {
     color: #F00;
@@ -295,8 +297,123 @@ span {
     line-height: 32px
 }
 
-.Gift-section .gift-img .imggroup-1 , .imggroup-2{
-      display: flex;
-      gap: 24px;
-      margin-top: 24px;
+.Gift-section .gift-img .imggroup-1,
+.imggroup-2 {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+
+/* Subscribe Newsletter's work starts from here */
+
+.subscribe {
+    max-width: 1200px;
+    max-height: 616px;
+    margin: 120px auto;
+    padding: 120px 100px;
+    border-radius: 16px;
+    width: 82%;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.subscribe button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border: none;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.subscribe .email-text {
+    display: flex;
+}
+
+.subscribe .email-text input {
+    flex-grow: 1;
+    border-radius: 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    padding-left: 30px;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.subscribe .subs-text {
+    padding: 80px 212px;
+}
+
+
+/* footer's work starts here */
+
+
+.footerr{
+    background: #070211;
+}
+.footerr .footer-part{
+    width: 82%;
+    max-width: 1320px;
+    height: 609px;
+    margin: 0px auto;
+    
+}
+
+.footerr p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px
+}
+
+.footerr .footer-part .contact-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerr .footer-part .contact-info .call , .website{
+    display: flex;
+}
+
+.footerr .footer-part  .conact-images{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footerr .footer-part .all-rights{
+    display: flex;
+    justify-content: space-between;
 }
