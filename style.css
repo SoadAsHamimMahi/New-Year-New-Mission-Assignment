@@ -137,12 +137,6 @@
     font-weight: 700;
 }
 
-/* .midnight-text {
-    padding-top: 126px;
-    padding-left: 126px;
-    padding-right: 497px;
-    padding-bottom: 142px;
-} */
 
 
 /* Join sections work started from here */
@@ -185,18 +179,14 @@ span {
     background: #F00;
     border: none;
     margin-top: 48px;
-}
-
-.join-section button {
     color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
 }
+
+.join-section button {}
 
 
 /* NEW BEST OFFER coming soon section starts from here */
@@ -226,7 +216,8 @@ span {
     font-weight: 700;
 }
 
-.coming-soon-section .coming-soon .coming-text1 > p , .coming-text2 >p{
+.coming-soon-section .coming-soon .coming-text1>p,
+.coming-text2>p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -237,13 +228,13 @@ span {
     margin-bottom: 22px;
 }
 
-.coming-soon-section .coming-soon .coming-img{
+.coming-soon-section .coming-soon .coming-img {
     width: 364.844px;
-height: 364.844px;
-flex-shrink: 0;
-border-radius: 364.844px;
-border: 15px solid #F00;
-padding: 15px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    border: 15px solid #F00;
+    padding: 15px;
 }
 
 
@@ -361,6 +352,22 @@ h6 {
     margin-top: 24px;
 }
 
+.Gift-section .gift-img .box {
+    box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+    transform: .5s;
+
+}
+
+.Gift-section .gift-img .box img {
+    display: block;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
 
 /* Subscribe Newsletter's work starts from here */
 
@@ -401,16 +408,13 @@ h6 {
     background: #F00;
     width: 210px;
     height: 72px;
-    flex-shrink: 0;
     border: none;
-
     color: #FFF;
-
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    line-height: normal;
+
 }
 
 .subscribe button {
@@ -430,13 +434,14 @@ button:hover {
 
 .subscribe .email-text input {
     flex-grow: 1;
-    border-radius: 50px;
-    background: #FFF;
-    color: rgba(7, 2, 17, 0.30);
+    border-radius: 50px 0px 0px 50px;
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.3);
     padding-left: 30px;
     font-family: Inter;
     font-size: 18px;
     border: none;
+
 }
 
 .subscribe .subs-text {
