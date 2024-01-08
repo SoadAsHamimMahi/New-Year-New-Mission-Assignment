@@ -102,7 +102,7 @@
     position: relative;
 }
 
-.midnight-section{
+.midnight-section {
     display: flex;
     justify-content: space-between;
     padding: 68px 126px;
@@ -199,6 +199,54 @@ span {
 }
 
 
+/* NEW BEST OFFER coming soon section starts from here */
+
+.coming-soon-section .coming-soon {
+    max-width: 1320px;
+    max-height: 482px;
+    margin: 120px auto;
+}
+
+.coming-soon-section .coming-soon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coming-soon-section .coming-soon .coming-text1 h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.coming-soon-section .coming-soon .coming-text2 h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.coming-soon-section .coming-soon .coming-text1 > p , .coming-text2 >p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.coming-soon-section .coming-soon .coming-img{
+    width: 364.844px;
+height: 364.844px;
+flex-shrink: 0;
+border-radius: 364.844px;
+border: 15px solid #F00;
+padding: 15px;
+}
+
+
 /* holiday work starts from here */
 
 .holiday b {
@@ -277,7 +325,8 @@ span {
 
 
 
-.Gift-section .gift-text h6 {
+/* .Gift-section .gift-text  */
+h6 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -364,15 +413,15 @@ span {
     line-height: normal;
 }
 
-.subscribe button{
+.subscribe button {
     position: relative;
-  transition: transform 0.3s;
+    transition: transform 0.3s;
 }
 
-button:hover{
-    background-color: #008CBA;
-  color: white;
-  animation: bubble 0.4s ease-out;
+button:hover {
+    background-color: #001a4b;
+    color: white;
+    animation: bubble 0.4s ease-out;
 }
 
 .subscribe .email-text {
@@ -387,7 +436,7 @@ button:hover{
     padding-left: 30px;
     font-family: Inter;
     font-size: 18px;
-     border: none;
+    border: none;
 }
 
 .subscribe .subs-text {
@@ -398,10 +447,11 @@ button:hover{
 /* footer's work starts here */
 
 
-.footerr{
+.footerr {
     background: #070211;
 }
-.footerr .footer-part{
+
+.footerr .footer-part {
     width: 82%;
     max-width: 1320px;
     height: 609px;
@@ -418,27 +468,31 @@ button:hover{
     line-height: 40px
 }
 
-.footerr .footer-part .contact-info{
+.footerr .footer-part .contact-info {
     display: flex;
     justify-content: space-between;
 }
 
-.footerr .footer-part .contact-info .call , .website{
+.footerr .footer-part .contact-info .call,
+.website {
     display: flex;
 }
 
-.footerr .footer-part  .conact-images{
+.footerr .footer-part .conact-images {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.footerr .footer-part .all-rights{
+.footerr .footer-part .all-rights {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.footerr .footer-part .all-rights, .contact-info, .conact-images, hr{
+.footerr .footer-part .all-rights,
+.contact-info,
+.conact-images,
+hr {
     margin-bottom: 48px;
 }
