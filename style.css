@@ -16,7 +16,6 @@
     height: 600px;
     margin: 50px auto;
     position: relative;
-
 }
 
 .header-area .banner-text {
@@ -83,6 +82,7 @@
     width: 82%;
     max-width: 1320px;
     margin: 10px auto;
+    display: flex;
 }
 
 .dis-section .discount .discount-text {
